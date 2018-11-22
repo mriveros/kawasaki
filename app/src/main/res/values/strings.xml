@@ -1,0 +1,76 @@
+<resources>
+    <string name="app_name">Reach Out</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_register">Register</string>
+    <string name="phone">Mobile Number</string>
+    <string name="login_text">Enter your mobile number to continue</string>
+    <string name="continue_text">Continue</string>
+    <string name="error">Error</string>
+    <string name="mobile_prefix">+595</string>
+    <string name="verify">Verify</string>
+    <string name="title_activity_otpverfication">OTPVerfication</string>
+    <string name="enter_mobile_number">Enter Mobile Number To Continue</string>
+    <string name="enter_10_digits_mob_number">Enter 10 digit mobile number</string>
+    <string name="otp_verification_text">Enter 4-digit OTP (One Time Password) </string>
+    <string name="resend_code">RESEND CODE</string>
+    <string name="enter_4_digits">Enter 4-digit OTP continue</string>
+    <string name="enter_valid_otp">Enter valid OTP</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="change_bike">Change Bike</string>
+    <string name="book_sevice">Book Service</string>
+    <string name="service_history">Service History</string>
+    <string name="sos">SOS</string>
+    <string name="inbox">Inbox</string>
+    <string name="profile">Profile</string>
+    <string name="kawasaki_ninja">Kawasaki Ninja H2R</string>
+    <string name="ramesh_kumar">Ramesh Kumar</string>
+    <string name="mon_number">9800312421</string>
+    <string name="feedback_history">Feedback History</string>
+    <string name="log_out">LogOut</string>
+    <string name="please_wait">Please Wait..</string>
+    <string name="profile_picture">Profile Picture</string>
+    <string name="camera">Camera</string>
+    <string name="gallery">Gallery</string>
+    <string name="remove_picture">Remove Picture</string>
+    <string name="title_activity_book_service">BookService</string>
+    <string name="book_service">Book Service</string>
+    <string name="service">Service</string>
+    <string name="date_of_service">Date of service</string>
+    <string name="city">City</string>
+    <string name="dealer">Dealer</string>
+    <string name="book_service_done">Book Service Done</string>
+    <string name="save_continue">Save &amp; Continue</string>
+    <string name="last_service_dealer_info">Last Service Dealer information</string>
+    <string name="kawasaki_limited_bangalore">Kawasaki limited, Bangalore</string>
+    <string name="search_dealer_contact">Search Dealer Contact</string>
+
+    <string-array name="month_name">
+        <item>January</item>
+        <item>Feb</item>
+        <item>Mar</item>
+        <item>Apr</item>
+        <item>May</item>
+    </string-array>
+
+    <string-array name="city_list">
+        <item>Bangalore</item>
+
+    </string-array>
+
+    <string-array name="dealer_list">
+        <item>Kawasaki Limited</item>
+    </string-array>
+
+    <string-array name="service">
+        <item>Suggested Service</item>
+    </string-array>
+    <string name="title_activity_sos">SOS</string>
+    <string name="title_activity_inbox">InboxActivity</string>
+
+
+</resources>

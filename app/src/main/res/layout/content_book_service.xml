@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".Activity.BookService"
+    android:background="@color/colorWhite"
+    tools:showIn="@layout/activity_book_service">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/back_ground_book"
+        android:orientation="horizontal">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/imageView"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/space_5"
+            android:contentDescription="@string/nav_header_desc"
+            android:paddingTop="@dimen/nav_header_vertical_spacing"
+            android:src="@drawable/profile_kawasaki" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/space_5"
+            android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kawasaki Nonja H2R"
+            android:layout_marginLeft="@dimen/space_5"
+            android:textColor="@color/colorWhite"
+            android:textSize="@dimen/text_18"
+            android:textStyle="bold"
+           />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="KA 0 6734"
+            android:layout_marginLeft="@dimen/space_5"
+            android:textColor="@color/colorWhite"
+            android:textSize="@dimen/text_16"
+
+         />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            android:id="@+id/book_service"
+            android:background="@drawable/button_gradiant_color">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:padding="@dimen/space_10"
+                android:src="@drawable/reminder" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/space_10"
+                android:text="Next servive is due in 7 days.Book Service Now!"
+                android:textColor="@color/colorWhite"
+                android:layout_gravity="center"
+                android:textSize="@dimen/text_14" />
+
+
+
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+          android:layout_marginLeft="@dimen/space_16"
+            android:layout_marginRight="@dimen/space_16"
+            android:layout_marginTop="@dimen/space_10"
+            android:textSize="@dimen/text_16"
+            android:text="@string/service"/>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/space_16"
+            android:layout_marginRight="@dimen/space_16">
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:focusable="false"/>
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:entries="@array/service"
+                android:id="@+id/spinnerService">
+
+
+            </Spinner>
+        </FrameLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/date_of_service"
+            android:layout_marginTop="@dimen/space_10"
+            android:layout_marginLeft="@dimen/space_16"
+            android:layout_marginRight="@dimen/space_16"
+            android:textSize="@dimen/text_16"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+          <FrameLayout
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_marginLeft="@dimen/space_16"
+              android:layout_marginRight="@dimen/space_16">
+
+                <Spinner
+                    android:id="@+id/spinner1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:entries="@array/month_name"
+
+                    />
+
+                <EditText
+                    android:id="@+id/editText1"
+                    android:editable="false"
+                    android:layout_width="100dp"
+                    android:focusable="false"
+                    android:layout_height="wrap_content"
+                   />
+
+          </FrameLayout>
+
+            <EditText
+                    android:editable="false"
+                    android:layout_width="100dp"
+                    android:focusable="false"
+                    android:text="22"
+                    android:layout_height="wrap_content"
+                    />
+
+            <EditText
+                    android:editable="false"
+                    android:layout_width="100dp"
+                    android:focusable="false"
+                    android:text="2018"
+                    android:layout_height="wrap_content"
+                    />
+
+        </LinearLayout>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/space_16"
+            android:layout_marginRight="@dimen/space_16"
+            android:textSize="@dimen/text_16"
+            android:layout_marginTop="@dimen/space_10"
+            android:text="@string/city"/>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/space_16"
+            android:layout_marginRight="@dimen/space_16">
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:focusable="false"/>
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:entries="@array/service"
+               android:id="@+id/spinne_city">
+
+
+            </Spinner>
+        </FrameLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/space_16"
+            android:layout_marginRight="@dimen/space_16"
+            android:textSize="@dimen/text_16"
+            android:layout_marginTop="@dimen/space_10"
+            android:text="@string/dealer"/>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/space_16"
+            android:layout_marginRight="@dimen/space_16">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:focusable="false"/>
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:entries="@array/service"
+                android:id="@+id/spinner_dealer">
+
+            </Spinner>
+        </FrameLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:id="@+id/save_continue"
+        android:text="@string/save_continue"
+        android:textSize="@dimen/text_16"
+        android:layout_marginTop="@dimen/space_30"
+        android:layout_marginLeft="@dimen/space_16"
+        android:layout_marginRight="@dimen/space_16"
+        android:background="@drawable/button_gradiant_color"
+        android:textColor="@color/colorWhite"/>
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_change_bike"
+            android:icon="@drawable/bike"
+            android:title="@string/change_bike" />
+        <item
+            android:id="@+id/nav_book_service"
+            android:icon="@drawable/book_service"
+            android:title="@string/book_sevice" />
+        <item
+            android:id="@+id/nave_service_history"
+            android:icon="@drawable/service_history"
+            android:title="@string/service_history" />
+        <item
+            android:id="@+id/nav_sos"
+            android:icon="@drawable/sos"
+            android:title="@string/sos" />
+
+        <item
+            android:id="@+id/nav_inbox"
+            android:icon="@drawable/inbox"
+            android:title="@string/inbox" />
+
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/profile"
+            android:title="@string/profile" />
+
+        <item
+            android:id="@+id/nav_feedback"
+            android:icon="@drawable/feedback"
+            android:title="@string/feedback_history" />
+
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/logout"
+            android:title="@string/log_out" />
+
+
+    </group>
+
+
+
+</menu>

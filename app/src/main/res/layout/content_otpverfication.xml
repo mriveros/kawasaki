@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+       android:id="@+id/linear_layout"
+        android:background="@drawable/back_ground"
+        tools:context=".Activity.OTPVerfication">
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/space_15"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/otp_verification_text"
+                    android:layout_gravity="center"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="@dimen/text_18" />
+
+
+                <com.alimuzaffar.lib.pin.PinEntryEditText
+                    android:id="@+id/et_otpVerification_code"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/space_20"
+                    android:cursorVisible="false"
+                    android:digits="1234567890"
+                    android:inputType="number"
+                    android:maxLength="4"
+                    android:textSize="@dimen/text_20"
+                    app:pinBackgroundDrawable="@drawable/rectgreyborder_whitebackground"
+                    />
+
+                <TextView
+                    android:id="@+id/tv_otpVerification_codeError"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/space_5"
+                    android:text="@string/error"
+                    android:textColor="@color/colorErrorRed" />
+
+                <LinearLayout
+                    android:id="@+id/ll_otpVerification_verifyClick"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/space_45"
+                    android:layout_marginTop="@dimen/space_20"
+                    android:background="@drawable/selector_primarybackground"
+                    android:layout_marginLeft="@dimen/space_15"
+                    android:layout_marginRight="@dimen/space_15"
+                    android:layout_marginBottom="@dimen/space_15"
+                    android:clickable="true"
+                    android:padding="@dimen/space_10">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/verify"
+                        android:textColor="@color/colorWhite"
+                        android:textSize="@dimen/text_18"
+                        android:gravity="center"
+                        />
+
+                </LinearLayout>
+
+
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/resend_code"
+                    android:textColor="@color/colorWhite"
+                    android:gravity="center"
+                    android:layout_marginRight="@dimen/space_20"
+                    android:layout_marginLeft="@dimen/space_20"
+                    android:layout_marginTop="@dimen/space_15"
+                    android:textSize="@dimen/text_18"
+                    android:padding="@dimen/space_10"
+                    />
+
+
+            </LinearLayout>
+
+        </ScrollView>
+
+
+    </LinearLayout>

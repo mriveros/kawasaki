@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+       android:id="@+id/relative_layout"
+        android:background="@drawable/back_ground"
+        tools:context=".Activity.Register">
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_centerInParent="true"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/iv_login_splashLogo"
+                android:layout_width="@dimen/space_128"
+                android:layout_height="@dimen/space_128"
+                android:src="@drawable/kawasaki"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/space_15"
+                android:text="@string/login_text"
+                android:textSize="@dimen/text_18"
+                android:textColor="@color/colorWhite"
+                android:gravity="center"
+                />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/space_15"
+                android:layout_gravity="center"
+                android:background="@drawable/rectgreyborder_whitebackground"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/space_45"
+                    android:layout_gravity="top"
+                    android:background="@android:color/transparent"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="@dimen/text_16"
+                    android:text="@string/mobile_prefix"
+                    android:maxLines="1"
+                    android:padding="@dimen/space_10" />
+
+
+                <EditText
+                    android:id="@+id/et_login_mobileNumber"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/space_45"
+                    android:layout_gravity="top"
+                    android:background="@android:color/transparent"
+                    android:inputType="number"
+                    android:hint="@string/phone"
+                    android:textSize="@dimen/text_16"
+                    android:maxLines="1"
+                    android:padding="@dimen/space_10" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tv_login_mobileNumberError"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/space_15"
+                android:layout_marginRight="@dimen/space_15"
+                android:layout_marginBottom="@dimen/space_15"
+                android:text="@string/error"
+                android:textSize="@dimen/text_14"
+                android:textColor="@color/colorErrorRed"/>
+
+            <LinearLayout
+                android:id="@+id/ll_login_continueClick"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/space_45"
+                android:background="@drawable/selector_primarybackground"
+                android:layout_marginLeft="@dimen/space_15"
+                android:layout_marginRight="@dimen/space_15"
+                android:layout_marginBottom="@dimen/space_15"
+                android:clickable="true"
+                android:padding="@dimen/space_10">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/continue_text"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="@dimen/text_18"
+                    android:gravity="center"
+                    />
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+
+
+
+    </RelativeLayout>
+
