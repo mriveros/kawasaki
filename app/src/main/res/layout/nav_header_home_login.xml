@@ -23,7 +23,7 @@
             android:layout_height="80dp"
             android:contentDescription="@string/nav_header_desc"
             android:paddingTop="@dimen/nav_header_vertical_spacing"
-            android:src="@drawable/kawasakii" />
+            android:src="@drawable/profile_kawasaki" />
 
         <de.hdodenhof.circleimageview.CircleImageView
             android:id="@+id/imageViewSelect"
@@ -46,32 +46,32 @@
             android:layout_marginLeft="@dimen/space_5"
             android:orientation="vertical">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/kawasaki_ninja"
-        android:textSize="@dimen/text_16"
-        android:textStyle="bold"
-        android:paddingTop="@dimen/nav_header_vertical_spacing"
-        android:textColor="@color/colorWhite"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/kawasaki_ninja"
+                android:textSize="@dimen/text_16"
+                android:textStyle="bold"
+                android:paddingTop="@dimen/nav_header_vertical_spacing"
+                android:textColor="@color/colorWhite"/>
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/ramesh_kumar"
-            android:textSize="@dimen/text_16"
-            android:textStyle="bold"
-            android:paddingTop="@dimen/nav_header_vertical_spacing"
-            android:textColor="@color/colorWhite"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ramesh_kumar"
+                android:textSize="@dimen/text_16"
+                android:textStyle="bold"
+                android:paddingTop="@dimen/nav_header_vertical_spacing"
+                android:textColor="@color/colorWhite"/>
 
-          <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/mon_number"
-            android:textSize="@dimen/text_16"
-            android:textStyle="bold"
-            android:paddingTop="@dimen/nav_header_vertical_spacing"
-            android:textColor="@color/colorWhite"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/mon_number"
+                android:textSize="@dimen/text_16"
+                android:textStyle="bold"
+                android:paddingTop="@dimen/nav_header_vertical_spacing"
+                android:textColor="@color/colorWhite"/>
 
 
         </LinearLayout>
@@ -88,6 +88,3 @@
 
 
 </LinearLayout>
-
-
-

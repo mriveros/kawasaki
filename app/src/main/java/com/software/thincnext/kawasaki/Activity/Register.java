@@ -34,8 +34,11 @@ public class Register extends AppCompatActivity {
     @BindView(R.id.tv_login_mobileNumberError)
     TextView mobileError;
 
-    @BindView(R.id.et_login_mobileNumber)
+    @BindView(R.id.txtUsuario)
     EditText mMobileNumber;
+
+    @BindView(R.id.txtPassword)
+    EditText txtPassword;
 
     private static final String TAG = Register.class.getSimpleName();
     private static OkHttpClient.Builder builder;
